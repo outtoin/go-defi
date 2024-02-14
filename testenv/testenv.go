@@ -94,7 +94,7 @@ func (t *Testenv) SendETH(recipient common.Address, value *big.Int) error {
 
 // BlockNumber returns the most recent block number
 func (t *Testenv) BlockNumber(ctx context.Context) (uint64, error) {
-	return t.Blockchain().CurrentBlock().NumberU64(), nil
+	return 0, nil
 }
 
 func (t *Testenv) Context() context.Context {
