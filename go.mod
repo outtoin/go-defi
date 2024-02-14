@@ -1,4 +1,4 @@
-module github.com/bonedaddy/go-defi
+module github.com/outtoin/go-defi
 
 go 1.15
 
